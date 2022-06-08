@@ -1,204 +1,1181 @@
 <html>
-    <head>
-        <title>Juro que tô tentando</title>
-        <meta charset="utf-8">
-        
-    </head>
-        <body>
-            <img src="./imagens/florkry.jpg" width="200"/>
-            <h1>Ordem das coisas</h1>
-            
-            <h2> Sempre <abbr style="color: blue;" title="<></>">abrir e fechar</abbr> as tags antes de inserir o conteúdo ou os atributos</h2>
-           
-            <h2>Tags:</h2>
-           
-            <h3>HTML</h3>
-                <p>Primeiro de tudo, a linguagem a ser utilizada. No caso, o html. Vai eglobar todos os elementos dentro dela.</p>
-            
-            <h3>Head</h3>
-                <p>Head, o conteúdo que vai aparecer na aba de navegação da página.</p>    
-           
-            <h3>Title</h3>
-                <p>Title, que vai ser o nome que aparece na aba do navegador.</p>
 
-            <h3>Body</h3>
-             <p>Body, que é o corpo da página. Aqui dentro vai ficar tudo que vai ser escrito na página. Ele só fecha quando você for concuir o trabalho.</p>
+<head>
+    <title>Juro que tô tentando</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./estilo.css">
+    <style type="text/css">
+        h2 {
+            color: midnightblue
+        }
 
-            <h3>H</h3>
-                <p>H são os subtítulos. Vão ter fontes de tamanhos variados de acordo com o número que vem logo após o h.</p>
+        h3 {
+            color: black
+        }
+    </style>
 
-            <h3>P</h3>
-                <p>É o conteúdo do parágrafo. Litralmente, o texto.</p>
+</head>
 
-            <h3>A</h3>
-                <p>A tag a insere links externos. Precisa ter o atributo href dentro dela, que é o atributo do link. Exemplo:</p>
-                <p>Link inserido: <a href="https://i.pinimg.com/originals/f5/41/8c/f5418c1924e79748f40f001fafb9453d.gif">Esse trecho é o hiperlink que redireciona para outra página.</a></p>
+<body>
+    <img src="./imagens/florkry.jpg" width="200" />
+    <h1 class="titulo">Ordem das coisas</h1>
 
-            <h3>Itálico, negrito, sublinhado e strong</h3> 
-                <p> Tag i para <i>itálico</i>, b para <b>negrito</b> e u para <u>sublinhado</u>.</p>   
+    <h2> Sempre <abbr style="color: blue;" title="<></>">abrir e fechar</abbr> as tags antes de inserir o conteúdo ou os
+        atributos</h2>
 
-            <h3>Stong e Em</h3>
-                <p> A tag Strong é utilizada em acessibilidade, onde a leitura do texto para deficientes visuais terá um <strong>volume maior</strong> para o trecho tagueado com strong. A tag Em (de enfatizar) também gera uma leitura em <em>tom diferenciado</em>.</p>
+    <h2>Tags:</h2>
 
-            <h3>Div</h3>     
-                <p>Div separa partes do conteúdo do Body em sessões. Por exemplo, um Div que englobe o conteúdo desta página que fala sobre tags, outra Div para o conteúdo que fala sobre Atributos, etc. Pode receber estilização. è uma tag de organização estrutural.</p>
-            
-            <h3>Nav</h3>
-                <p>Organização estrutural</p>
+    <h3>HTML</h3>
+    <p>Primeiro de tudo, a linguagem a ser utilizada. No caso, o html. Vai eglobar todos os elementos dentro dela.</p>
 
-            <h3>Section</h3>
-                <p>Organização estrutural</p>
+    <h3>Head</h3>
+    <p>Head, o conteúdo que vai aparecer na aba de navegação da página.</p>
 
-            <h3>Meta</h3>
+    <h3>Title</h3>
+    <p>Title, que vai ser o nome que aparece na aba do navegador.</p>
 
-            <h3>Span</h3>
-                <p>Span é uma tag que pode ser colocada dentro de outra tag, onde seu conteúdo pode receber uma formatação diferente da teg em que ela está incluída (exemplo, incluir uma tag span dentro do conteúd o textual dentro de uma tag P). Ou seja, pode-se aplicar cor, ou outra característica ao conteúdo da tag span sem interferir no resto do texto da tag P onde Span está inserida.
-                    Exemplo:
-                    <p>Lorem ipsum lorem ipsum <span style="color:blueviolet ">palavra com outra cor</span>lorem ipsum lorem ipsum</p>
-            
-            <h3>Ul, Ol e Li</h3>
-                <ul>
-                <p>Unordered list, ordered list e List item.</p>
-                <li>A ul coloca pontos de marcação em elementos de uma lista cuja ordem dos elementos é irrelevante.</li>
-                <li>A ol coloca numerais em ordem no lugar de pontos de marcação.</li>
-                <li>A li adiciona elementos na lista.</li></p>
-                </ul>
+    <h3>Body</h3>
+    <p>Body, que é o corpo da página. Aqui dentro vai ficar tudo que vai ser escrito na página. Ele só fecha quando você
+        for concuir o trabalho.</p>
 
-            <h3>Img</h3>
-                <p>Tag para inserção de imagens. É uma tag <u>sem fechamento</u>. O src é um atributo obrigatório e img, é o source, a fonte da imagem. Exemplo:</p>
-                <p> <img src="./imagens/florkry.jpg" width="200"/></p>
+    <h3>H</h3>
+    <p>H são os subtítulos. Vão ter fontes de tamanhos variados de acordo com o número que vem logo após o h.</p>
 
+    <h3>P</h3>
+    <p>É o conteúdo do parágrafo. Litralmente, o texto.</p>
 
-                <h2>Atributos:</h2>   
+    <h3>A</h3>
+    <p>A tag a insere links externos. Precisa ter o atributo href dentro dela, que é o atributo do link. Exemplo:</p>
+    <p>Link inserido: <a href="https://i.pinimg.com/originals/f5/41/8c/f5418c1924e79748f40f001fafb9453d.gif">Esse trecho
+            é o hiperlink que redireciona para outra página.</a></p>
 
-            <h4>Servem para fazer mudanças na estrutura ou na funcionalidade das tags. Podem ser com abertura e fechamento (abre a tag, insere o atributo, insere conteúdo, fecha a tag) ou sem fechamento (para os casos de tags que não inserem conteúdo de texto, como é o caso da tag img).
-                São inseridas dentro da tag, como aparece aqui no <abbr style="color:blue;" title="abre-se a tag, insere o atributo, fecha a tag. ver o veja aqui do atrbuto color.">exemplo.</abbr>
-                Existem atributos específicos, para tags específicas, atributos globais, que serve para toda tag HTML, e atributos obrigatórios 
-            </h4>
-                
-            <h3>ABBR</h3>
-                 <p>Para fazer abreviações, que é o textinho que aparece quando se passa o mouse em cima de alguma palavra ou frase ou caracter específico. 
-                    Deve ser aberto antes da palavra que se deseja abreviar, e fechado logo em seguida. 
-                    Dentro do abbr, se abre o <a style="color: rgb(95, 20, 89);">title</a>, onde é inserido o textinho.</p>
-                <h4>Exemplo:</h4>
-                <p>Aqui está uma frase com uma palavra marcada com <abbr title="<abbr title=seu texto, sempre e obrigatoriamente entre aspas> </abbr>">abbr</abbr> para abreviação</abbr>.</p>
-                <p>É o conteúdo da abreviação, feita dentro de outra tag (abbr, a, ou qualquer outra)</p>   
-                <h4>Exemplo:</h4>    
-                <p> Este é um exemplo de  <abbr style="color: blue;" title="este texto é o title">aplicação de title.</abbr> Escreve <abbr style="color:blue;" title="abre tag (por exemplo, abbr) title=&quot conteudo &quot fecha tag">assim</abbr>.</p>
-                   
-            <h3>Color</h3>
-                
-            <p>Color é um dos atributos que podem ser dados à tag Style, para definir uma cor a um texto, palavra ou caractere. É aplicado da seguinte forma: <abbr title="<abbr title=&quot;color: (aqui vai aparecer uma caixa de seleção de cores)&quot;></abbr>" style="color:blue;">veja aqui</abbr></p>
-            <h3>Charset</h3>
-                <p>Para determinar textos e acentuações de acordo com a lígua portuguesa, utiliza-se o charset= utf-8 (entre aspas) </h3>            
-                </p>
+    <h3>Itálico, negrito, sublinhado e strong</h3>
+    <p> Tag i para <i>itálico</i>, b para <b>negrito</b> e u para <u>sublinhado</u>.</p>
 
-            <h3>Src, width e Heidth</h3>
-                <p> Atributo obrigatório para a tag img, que mostra onde está a imagem a ser apresentada. 
-                    O endereço da imagem pode ser alguma url online ou um endereço no computador. O atributo width configura a largura da imagem, e o heidth, a altura. Para que a imagem fique proporcional, recomenda-se configurar apenas um ou outro.
-                    Exemplo:</p>
-                    <img src="./imagens/vish.jpg" width="200"/>
+    <h3>Stong e Em</h3>
+    <p> A tag Strong é utilizada em acessibilidade, onde a leitura do texto para deficientes visuais terá um
+        <strong>volume maior</strong> para o trecho tagueado com strong. A tag Em (de enfatizar) também gera uma leitura
+        em <em>tom diferenciado</em>.
+    </p>
 
-            <h3>Video</h3>
-                <p>Tag para inserir vídeos. Segue o mesmo procedimendo de source da tag img. Seguido do source do vídeo, adicionar o atributo controls para que o vídeo tenha um boão de play.</p>
-                <video src="./imagens/flork-italian.mp4" width="200" controls>flork italiano</video>
+    <h3>Div</h3>
+    <p>Div separa partes do conteúdo do Body em sessões. Por exemplo, um Div que englobe o conteúdo desta página que
+        fala sobre tags, outra Div para o conteúdo que fala sobre Atributos, etc. Pode receber estilização. è uma tag de
+        organização estrutural.</p>
 
-            <h3>Href e Target</h3>
-                    <p>O atributo href vai dentro da tag a, e é ele quem carrega o link externo a ser mostrado na tag. O target define onde o link será aberto. Exemplo:</p>
-                <p>Link inserido: <a href="https://i.pinimg.com/originals/f5/41/8c/f5418c1924e79748f40f001fafb9453d.gif" target="_blank">abrirá em nova aba por casua do uso do atributo target inserido dentro da tag de link a.</a></p>
+    <h3>Nav</h3>
+    <p>Organização estrutural</p>
 
-            <h3>ID (global)</h3>
-            <h3>Class (global)</h3>
-                <p>Adiciona uma classe de elemento a uma palavra no texto. Quando passar o cursor sobre essa palavra, aparece uma janelinha de pop-up com a classe estabelecida. Exemplo:</p>
-                <p>Lista dos meus pokémon favoritos:</p>
-                <ul>
-                <li class="água">Vaporeon</li>
-                <li class="elétrico">Raichu</li>
-                <li class="fantasma">Gengar</li>
-                <li class="elétrico">Ampharos</li>
-                <li class="fada">Togekiss</li>
-                <li class="aço">Agron</li>
-                </ul>
-            <h3>Style (global)</h3>    
-            <h3>Lang (global)</h3>
-            <h3>Alt (global)</h3>
-            <h3>Title (global)</h3>
+    <h3>Section</h3>
+    <p>Organização estrutural</p>
 
-            <br/>
+    <h3>Meta</h3>
 
-        <h2>DOM</h2>
-            <h4>Document Object Model. API que representa os objetos de uma página HTML em forma de uma árvore e lê o documento como um objeto, 
-                permitindo alterar conteúdos (alterar, mover, excluir, etc) na aplicações web em tempo de execução, ou seja, sem precisar recarregar 
-                a página completamente. 
-                Através dele acessamos os elementos dentro de uma página HTML.
-                O DOM cria um objeto diferente para cada elemento, mas vincula cada um deles ao seu elemento circundante (ou elemento pai), formando 
-                uma árvore hierárquica.</h4>    
-                    <p>Árvore hierárquica de DOM:</p>
-                    <p><img src="http://devfuria.com.br/javascript/dom/arvore-dom-1.gif" width="50%"></p>
+    <p>Inser metadados, informações no head que serão interprestadas pelo browser, e não serão apresentadas na
+        visualização. Elemento vazio. As mais comuns:</p>
+    <ul>
+        <li>charset: atribui o conjunto de caracteres a ser lido no idioma do texto. </li>
+        <li>name: especifica o nome de um metadado (ex: descriptio, keyword, author, viewport etc)</li>
 
-        <h2>GetElementById, GetElementByClass, getElementsByClassName e getElementsByTagName</h2>
-            <p>Get Elemet By permite obter um elemento do documento a partir de um atributo ID, class, name ou tag já especificado para o elemento.</p>
-               
-        <h2>Tags semânticas</h2>
-            <p>Quando se escree uma página HTML, utilizam-se tags semânticas para criar sessões no texto. Estas tags substituem (ainda que não obrigatoriamente)
-                as divs, pois facilitam na compreensão da semântica do código. Sãoexemplos de tags semânticas: header (cabeçalho), nav (navegação), aside (coluna/quadro ateralizado),
-                footer (rodapé), e article (artigo)
-            </p>
+    </ul>
 
-        <h2>Tabelas: table, td, tr e th</h2>
-            <p>Tag table: delimita o início e o fim da tabela.<br>
-            Tag tr: define uma linha. Quantas sejam a linhas da tabela, se abrem tr´s em sequencia, uma baaixo da outra. Abre e fecha dentro da table.<br>
-            Tag td: define um dado. Quantas sejam as colunas, se abrem td´s em sequência, uam abaixo da oura.Abre e fecha dentro da tr.<br>
-            Atributo border: deve ser acrescentado dentro da abertura da tag table (com um valor igual a 1) para inserir as bordas da coluna.<br>
-            Outro atributo de coluna é o colspan, que serve para mesclar células de coluna. Por exemplo, para mesclar três células de uma mesma coluna, 
-            se abre o atributo colspan dentro da primeira tr que fará parte da mescla de célula, e ="3".<br>
-            O mesmo se aplica para linhas, com o atributo rowspan.<br>
-            A tag th (tablehead) centraliza e negrita o conteúdo da célula.
+    <h3>Span</h3>
+    <p>Span é uma tag que pode ser colocada dentro de outra tag, onde seu conteúdo pode receber uma formatação diferente
+        da teg em que ela está incluída (exemplo, incluir uma tag span dentro do conteúd o textual dentro de uma tag P).
+        Ou seja, pode-se aplicar cor, ou outra característica ao conteúdo da tag span sem interferir no resto do texto
+        da tag P onde Span está inserida.
+        Exemplo:
+    <p>Lorem ipsum lorem ipsum <span style="color:blueviolet ">palavra com outra cor</span>lorem ipsum lorem ipsum</p>
+
+    <h3>Ul, Ol e Li</h3>
+    <ul>
+        <p>Unordered list, ordered list e List item.</p>
+        <li>A ul coloca pontos de marcação em elementos de uma lista cuja ordem dos elementos é irrelevante.</li>
+        <li>A ol coloca numerais em ordem no lugar de pontos de marcação.</li>
+        <li>A li adiciona elementos na lista.</li>
         </p>
-                <br>
-                    <table border="1">
-                        <tr>
-                            <td>Pokémon</td>
-                            <td>Tipo</td>
-                            <td>Presta?</td>
-                            <td>Amo?</td>
-                            
-                        </tr>
-                        <tr>    
-                            <td>Raichu</td>
-                            <td>Elétrico</td>
-                            <td>Depende</td>
-                            <td>Sim</td>
-                        </tr>
-                        <tr>
-                            <td>Ampharos</td>
-                            <td>Elétrico</td>
-                            <td>Muito</td>
-                            <td>Sim</td>
-                        <tr>
-                            <td>Gengar</td>
-                            <td>Fantasma</td>
-                            <td>Depende</td>
-                            <td>Sim</td>
-                        </tr>                
-                    </table>
+    </ul>
 
-                <br>
-                <br>
+    <h3>Img</h3>
+    <p>Tag para inserção de imagens. É uma tag <u>sem fechamento</u>. O src é um atributo obrigatório e img, é o source,
+        a fonte da imagem. Exemplo:</p>
+    <p> <img src="./imagens/florkry.jpg" width="200" /></p>
 
-                    <table border="1">
-                        <tr>
-                            <th>Charizard</th>
-                            <th>Venussaur</th>
-                            <th>Blastoise</th>
-                        </tr>
-                        <tr>
-                            <td>Fogo</td>
-                            <td>Grama</td>
-                            <td>Água</td>
-                        </tr>
-                    
-                    </table>
 
-        </body>
+    <h2>Atributos:</h2>
+
+    <h4>Servem para fazer mudanças na estrutura ou na funcionalidade das tags. Podem ser com abertura e fechamento (abre
+        a tag, insere o atributo, insere conteúdo, fecha a tag) ou sem fechamento (para os casos de tags que não inserem
+        conteúdo de texto, como é o caso da tag img).
+        São inseridas dentro da tag, como aparece aqui no <abbr style="color:blue;"
+            title="abre-se a tag, insere o atributo, fecha a tag. ver o veja aqui do atrbuto color.">exemplo.</abbr>
+        Existem atributos específicos, para tags específicas, atributos globais, que serve para toda tag HTML, e
+        atributos obrigatórios
+    </h4>
+
+    <h3>ABBR</h3>
+    <p>Para fazer abreviações, que é o textinho que aparece quando se passa o mouse em cima de alguma palavra ou frase
+        ou caracter específico.
+        Deve ser aberto antes da palavra que se deseja abreviar, e fechado logo em seguida.
+        Dentro do abbr, se abre o <a style="color: rgb(95, 20, 89);">title</a>, onde é inserido o textinho.</p>
+    <h4>Exemplo:</h4>
+    <p>Aqui está uma frase com uma palavra marcada com <abbr
+            title="<abbr title=seu texto, sempre e obrigatoriamente entre aspas> </abbr>">abbr</abbr> para
+        abreviação</abbr>.</p>
+    <p>É o conteúdo da abreviação, feita dentro de outra tag (abbr, a, ou qualquer outra)</p>
+    <h4>Exemplo:</h4>
+    <p> Este é um exemplo de <abbr style="color: blue;" title="este texto é o title">aplicação de title.</abbr> Escreve
+        <abbr style="color:blue;"
+            title="abre tag (por exemplo, abbr) title=&quot conteudo &quot fecha tag">assim</abbr>.
+    </p>
+
+    <h3>Color</h3>
+
+    <p>Color é um dos atributos que podem ser dados à tag Style, para definir uma cor a um texto, palavra ou caractere.
+        É aplicado da seguinte forma: <abbr
+            title="<abbr title=&quot;color: (aqui vai aparecer uma caixa de seleção de cores)&quot;></abbr>"
+            style="color:blue;">veja aqui</abbr></p>
+    <h3>Charset</h3>
+    <p>Para determinar textos e acentuações de acordo com a lígua portuguesa, utiliza-se o charset= utf-8 (entre aspas)
+        </h3>
+    </p>
+
+    <h3>Src, width e Heidth</h3>
+    <p> Atributo obrigatório para a tag img, que mostra onde está a imagem a ser apresentada.
+        O endereço da imagem pode ser alguma url online ou um endereço no computador. O atributo width configura a
+        largura da imagem, e o heidth, a altura. Para que a imagem fique proporcional, recomenda-se configurar apenas um
+        ou outro.
+        Exemplo:</p>
+    <img src="./imagens/vish.jpg" width="200" />
+
+    <h3>Video</h3>
+    <p>Tag para inserir vídeos. Segue o mesmo procedimendo de source da tag img. Seguido do source do vídeo, adicionar o
+        atributo controls para que o vídeo tenha um boão de play.</p>
+    <video src="./imagens/flork-italian.mp4" width="200" controls>flork italiano</video>
+
+    <h3>Href e Target</h3>
+    <p>O atributo href vai dentro da tag a, e é ele quem carrega o link externo a ser mostrado na tag. O target define
+        onde o link será aberto. Exemplo:</p>
+    <p>Link inserido: <a href="https://i.pinimg.com/originals/f5/41/8c/f5418c1924e79748f40f001fafb9453d.gif"
+            target="_blank">abrirá em nova aba por casua do uso do atributo target inserido dentro da tag de link a.</a>
+    <p>Dentro da tag href, pode inserir o atributo title="algum texto" para que, ao passar o mouse sobre o link href
+        referenciado na mesma tag a, apareça uma caixinha em hover com o texto digitado.</p>
+
+    </p>
+
+    <h3>ID (global)</h3>
+    <h3>Class (global)</h3>
+    <p>Adiciona uma classe de elemento a uma palavra no texto. Quando passar o cursor sobre essa palavra, aparece uma
+        janelinha de pop-up com a classe estabelecida. Exemplo:</p>
+    <p>Lista dos meus pokémon favoritos:</p>
+    <ul>
+        <li class="água">Vaporeon</li>
+        <li class="elétrico">Raichu</li>
+        <li class="fantasma">Gengar</li>
+        <li class="elétrico">Ampharos</li>
+        <li class="fada">Togekiss</li>
+        <li class="aço">Agron</li>
+    </ul>
+    <h3>Style (global)</h3>
+    <h3>Lang (global)</h3>
+    <h3>Alt (global)</h3>
+    <h3>Title (global)</h3>
+
+    <br />
+
+    <h2>DOM</h2>
+    <h4>Document Object Model. API que representa os objetos de uma página HTML em forma de uma árvore e lê o documento
+        como um objeto,
+        permitindo alterar conteúdos (alterar, mover, excluir, etc) na aplicações web em tempo de execução, ou seja, sem
+        precisar recarregar
+        a página completamente.
+        Através dele acessamos os elementos dentro de uma página HTML.
+        O DOM cria um objeto diferente para cada elemento, mas vincula cada um deles ao seu elemento circundante (ou
+        elemento pai), formando
+        uma árvore hierárquica.</h4>
+    <p>Árvore hierárquica de DOM:</p>
+    <p><img src="http://devfuria.com.br/javascript/dom/arvore-dom-1.gif" width="50%"></p>
+
+    <h3>GetElementById, GetElementByClass, getElementsByClassName e getElementsByTagName</h3>
+    <p>Get Elemet By permite obter um elemento do documento a partir de um atributo ID, class, name ou tag já
+        especificado para o elemento.</p>
+
+    <h3>Tags semânticas</h3>
+    <p>Quando se escree uma página HTML, utilizam-se tags semânticas para criar sessões no texto. Estas tags substituem
+        (ainda que não obrigatoriamente)
+        as divs, pois facilitam na compreensão da semântica do código. Sãoexemplos de tags semânticas: header
+        (cabeçalho), nav (navegação), aside (coluna/quadro ateralizado),
+        footer (rodapé), e article (artigo)
+    </p>
+
+    <h3>Tabelas: table, td, tr e th</h3>
+    <p>Tag table: delimita o início e o fim da tabela.<br>
+        Tag tr: define uma linha. Quantas sejam a linhas da tabela, se abrem tr´s em sequencia, uma baaixo da outra.
+        Abre e fecha dentro da table.<br>
+        Tag td: define um dado. Quantas sejam as colunas, se abrem td´s em sequência, uam abaixo da oura.Abre e fecha
+        dentro da tr.<br>
+        Atributo border: deve ser acrescentado dentro da abertura da tag table (com um valor igual a 1) para inserir as
+        bordas da coluna.<br>
+        Outro atributo de coluna é o colspan, que serve para mesclar células de coluna. Por exemplo, para mesclar três
+        células de uma mesma coluna,
+        se abre o atributo colspan dentro da primeira tr que fará parte da mescla de célula, e ="3".<br>
+        O mesmo se aplica para linhas, com o atributo rowspan.<br>
+        A tag th (tablehead) centraliza e negrita o conteúdo da célula.
+    </p>
+    <br>
+    <table border="1">
+        <tr>
+            <td>Pokémon</td>
+            <td>Tipo</td>
+            <td>Presta?</td>
+            <td>Amo?</td>
+
+        </tr>
+        <tr>
+            <td>Raichu</td>
+            <td>Elétrico</td>
+            <td>Depende</td>
+            <td>Sim</td>
+        </tr>
+        <tr>
+            <td>Ampharos</td>
+            <td>Elétrico</td>
+            <td>Muito</td>
+            <td>Sim</td>
+        <tr>
+            <td>Gengar</td>
+            <td>Fantasma</td>
+            <td>Depende</td>
+            <td>Sim</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <table border="1">
+        <tr>
+            <th>Charizard</th>
+            <th>Venussaur</th>
+            <th>Blastoise</th>
+        </tr>
+        <tr>
+            <td>Fogo</td>
+            <td>Grama</td>
+            <td>Água</td>
+        </tr>
+    </table>
+    <br>
+
+
+    <h4>Label</h4>
+    <p>Rótulo, tag label. evidencia a caixa a ser preenchida pelo id selecionado. Sintaxe: (abre tag) label atributo
+        for=id do campo.</p>
+
+    <h4>Tipos de entrada e exemplos</h4>
+    <ol>
+        <li>Cor: input type="color" id="icor" name="cor" value="rgb da cor"</li>
+        <li>Data: input type="date" id="dtini" name="dtinicio" value="o valor" min="a partir de que data mínima"
+            max="até que data máxima"</li>
+        <li>E-mail: input type="mail" id="mail" size-"30" required</li>
+        <li>Número: input type="number" id="idade" name="idade" min="10" max="100" step="5". Step é de quantas em
+            quantas unidades a sessão pula.</li>
+        <li>Senha: input type="password" id="pass" name="password" minlength/maxlenght="8"</li>
+        <li>Intervalo: selecionar um valor numérico em um intervalo. input type="range" id="volume" name="volume"
+            min="0" max="11" value="8"</li>
+        <li>Busca: caixa de busca. input type="search" id="site-search" name="q"</li>
+        <li>Hora input type="time id="appt" name="appt" min="09:00" max="23:00" required</li>
+        <li>URL input type="url" name="url"id="url" placeholder="http://www.exemplo.com" size="30"</li>
+    </ol>
+
+
+    <h3>Form</h3>
+
+    <p>Tag para criação de Formulários. (exemplo na workover aula 13 min 10)</p>
+
+
+    <h4>Input types</h4>
+
+    <p>Atributos de imput que resultam em formas diferentes:</p>
+    <li>Input type= text. Abre uma caixa para digitação</li>
+    <li>Inputtype = button: gera um botão</li>
+    <li>Input type = radio. Gera botões do tipo radio. </li>
+    <li>Input type= checkbox. Gera caixinhas de marcação.</li>
+    <li>Input type=radio. Gera caixinha redonda de marcação.</li>
+    <p>
+        <bold>Para um mesmo input:type, TODOS OS NAME devem ser iguais.</bold>
+    </p>
+
+
+    <h3>Textos e botões</h3>
+
+    <h4>Textarea</h4>
+    <p>Propriedade de caixas de texto. Caixa para inserção de textos mais longos. <br>
+        Sintaxe: (abre tag)textarea id="texto" name="texto" rows="10" cols="60", insere o texto(fecha tag textarea) </p>
+
+    <h4>Datalist</h4>
+    <p>Utilizado para permitir uma entrada de texto a partir de uma lista de valores. <br>
+        Sintaxe: (abre tag)input type="text" list="sabores" id="isabores" name="sabores"(fecha tag)<br>
+        (abre tag)datalist id="sabores"(fecha tag)<br></p>
+    <li>(abre tag)option value="sabor2"(fecha tag)</li>
+    <li>(abre tag)option value="sabor3"(fecha tag)</li>(fecha tag datalist)
+
+    <p>Textarea</p>
+    <textarea id="texto" name="texto" rows="5" cols="60">Um texto aqui</textarea>
+
+    <p>Datalist e option value</p>
+    <input type="text" list="sabores" id="isabores" name="sabores">
+    <datalist id="sabores">
+        <label for="isabores"></label>
+        <option value="opção1"></option>
+        <option value="opção2"> </option value="opção3">
+    </datalist>
+
+
+
+    <h4>Button</h4>
+    <p>Criar botões. Sintaxe:(abre tag) button type="button"(fecha) Nome dado ao botão(fecha tag). Tipos de botões:</p>
+    <ul>
+        <li>submit: enviar dados do formlário</li>
+        <li>reset: volta os dados na configuração original</li>
+        <li>button: botão de uso geral</li>
+    </ul>
+    Criar botões com input: sintaxe: input type="button" value="nome dado ao botão".<br>
+
+    <p>Botão</p>
+    <button type="button">Nome do botão</button>
+    <br>
+    <p>Botão com input</p>
+    <input type="button" value="Nome do botão">
+
+
+    <h4>Checkbox e Radio</h4>
+
+    <ul>
+        <li>Fieldset: reúne grupos de elementos agrupados.</li>
+        <li>Legend: define o título do grupo.</li>
+    </ul>
+    <p>Ex: (abre tag)fieldset<br>
+        (abre tag legend) grupo de elementos (fecha tag legend)<br>
+        (fecha tag fieldset)</p>
+
+    <fieldset>
+        <legend>Título do fieldset</legend>
+    </fieldset>
+
+
+    <h4>Checkbox</h4>
+    <h5>Checkbox: Caixa de seleção múltipla. Sintaxe: (abre tag input type="checkbox" id-"item1" name="item1"
+        value="1")(abre tag label for="item1")nome do item(fecha tag label)</h5>
+
+    <input type="checkbox" id="item1" name="item1" value="1"><label for="item1">nome dado ao item</label>
+    <p>O atributo checked deixa, por padrão, uma caixa já marcada.</p>
+    <br>
+    <h5>Radio: caixa de seleção única. Na sintaxe das opções, <bold>deve-se obrigatoriamente definir um mesmo nome para
+            o atributo "name"</bold> para que se forme um grupo de opções.</h5>
+
+    <fieldset>
+        <legend>Lista de opções</legend>
+
+        <div>
+            <input type="checkbox" id="opção1" name="opção" value="1"><label for="opção1">Opção 1</label><br>
+            <input type="checkbox" id="opção2" name="opção" value="2"><label for="opção2">Opção 2</label><br>
+            <input type="checkbox" id="opção3" name="opção" value="3"><label for="opção3">Opção 3</label><br>
+            <button type="reset">Limpar formulário</button>
+        </div>
+    </fieldset>
+
+    <h4>Combobox</h4>
+
+    <h5>Caixa de seleção</h5>
+    <p>Caixa descendente, que trás uma lista de escolhas para o usuário.<br>
+        Sintaxe: (abre tag) select name="opção id="opção (fecha)
+    <ul>
+        <li>(abre tag option value="1")Primeiro item(fecha tag option)</li>
+        <li>(abre tag option value="2")Segundo item(fecha tag option)</li>
+        <li>(abre tag option value="1")Terceiro item(fecha tag option)</li>
+    </ul>
+    <br>
+    Exemplo:
+    </p>
+    <option value="1">Primeiro item</option>
+    <option value="2">Segundo item</option>
+    <option value="3">Terceiro item</option>
+
+    <h5>Optgroup</h5>
+
+    <p>Tag que cria grupos de opções. Sintaxe: tag optgrtoup label="Grupo X"</p>
+
+    <h5>Opções</h5>
+
+    <p>Atributo <bold>multiple</bold> permite selecionar múltiplas opções.</p>
+    <p>Atributo <bold>size</bold> permite exibir u número maior de opções ao mesmo tempo.</p>
+
+    <p>Exemplo:</p>
+
+    <h2 class="titulocontato">Contato</h2>
+
+
+    <form action="#" method="post">
+        <fieldset>
+
+            <legend>Dados pessoais</legend>
+
+            <div>
+                <label for="nome" class="obrigatórios">Nome:*</label>
+                <input type="text" name="nome" id="nome" placeholder="nome compelto" required>
+            </div>
+
+            <div>
+                <label for="e-mail" class="obrigatórios">E-mail:</label>
+                <input type="e-mail" name="e-mail" id="e-mail" placeholder="exemplo@email.com" required>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+
+            <legend>Assunto</legend>
+
+            <div>
+
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto">
+                    <option value=""></option>
+                    <option value="reclamação">Reclamação</option>
+                    <option value="sugestão">Sugestão</option>
+                    <option value="elogio">Elogio</option>
+                    <option value="outro">Outro</option>
+            </div>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Assunto</legend><br>
+            <div>
+                <input type="radio" name="assunto" value="reclamação" id="reclamação">
+                <label for="reclamação">Reclamação</label>
+                <input type="radio" name="assunto" value="sugestão" id="sugestão">
+                <label for="sugestão">Sugestão</label>
+                <input type="radio" name="assunto" value="Elogio" id="Elogio">
+                <label for="elogio">Elogio</label>
+                <input type="radio" name="assunto" value="Outro" id="Outro">
+                <label for="Outro">Outro</label>
+            </div>
+        </fieldset>
+        <br>
+
+        <fieldset>
+
+            <legend>Mensagem</legend>
+            <div>
+                <label for="Newsletter" class="obrigatórios">Mensagem</label>
+                <textarea name="newsletter" id="newsletter" placeholder="Digite sua mensagem"></textarea>
+            </div>
+
+            <div class="cadastro">
+                <input type="checkbox" name="cadastro" id="cadastro">
+                <label for="cadastro">Assinar newsletter</label>
+            </div>
+
+            <div class="cadastro">
+                <imput type="submit" value="Enviar mensagem">
+            </div>
+        </fieldset>
+    </form>
+    </form>
+    </form>
+
+    <p>Outro exemplo (workover)</p>
+
+    <h2>Exemplo de Formulário</h2>
+    <form action="enviar-dados.php" method="post" enctype="multipart/form-data"></form>
+    </form>
+    <p>
+        Nome:<input type="text" name="none">
+        Sobrenome:<input type="text" name="none">
+    </p>
+
+    <fieldset>
+        <legend>Desenvolvimento</legend>
+
+        <p>
+            <label>
+                <input type="radio" name="opções" value="HTML">HTML</input>
+                <input type="radio" name="opções" value="CSS">CSS</input>
+            </label>
+        </p>
+
+        <p>
+            <input type="checkbox" name="tecnology" value="HTML" /> Estudo de HTML
+            <input type="checkbox" name="tecnology" value="CSS" /> Estudo de CSS
+        </p>
+
+        <p>
+            <select>
+                <option value="" selected>Selecione uma opção:</option>
+                <option value="html">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="Javascript">Javascript</option>
+                <option value="JQuery">JQuery</option>
+                <option value="PHP">PHP</option>
+                <option value="JAVA">JAVA</option>
+            </select>
+
+            <select>
+                <option value="" selected>Selecione uma opção:</option>
+
+                <optgroup label="Desenvolvimento">
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="JQuery">JQuery</option>
+                </optgroup>
+
+                <optgroup label="Programação">
+                    <option value="PHP">PHP</option>
+                    <option value="JAVA">JAVA</option>
+                </optgroup>
+            </select>
+
+
+        </p>
+    </fieldset>
+
+
+
+
+
+
+
+
+    <h1 class="titulo">CSS</h1>
+
+    <img src="./flork.webp" width="200" />
+
+    <h2>
+        p (seletor) {
+        (propriedade): (valor);
+        }
+        <p> M odelo de declaração</p>
+    </h2>
+
+    <p>Cascading style sheet. Estilização de elementos da página web. Regra básica: seletores e regras (propriedade e
+        valor).<br>
+        No exemplo abaixo: regra é a linha inteira, onde as propriedades são text-align e color, e os valores sã oright
+        e green. Regras sã osempre separadas por ";". <br>
+        <br>
+        <img src="./sintaxecss.png" width="500" /> <br>
+    <h2>Regras mais utilizadas</h2>
+    <ul>
+        <p>
+
+            <li class="lista">Para cor de texto: color:. Dentro da tag do parágrafo ou h , se abre o atributo style e
+                seleciona a cor.</li>
+            <li class="lista">Sublinhado: text-decoration: underline. Dentro da tag do parágrafo ou h , se abre o
+                atributo style e seleciona o estilo.</li>
+            <li class="lista">Cor de fundo: Background-color:</li>
+            <li class="lista">Borda: border:1px solid black (por exemplo)</li>
+    </ul>
+    Estilizações podem ainda ser inseridas via arquivo externo através do elemento link (inserido no head) seguido do
+    atributo rel = stylesheet, atributo type = text/css e href = o arquivo css desejado.
+    </p>
+
+    <h3>Seletor ID e Seletor de classes Class</h3>
+
+    <p>Id(identificador>): Estiliza todos os elementos especificados com o seletor ID. É único em uma página HTML, então
+        todos os elementos (as tags onde são aplicados) ID devem ter o mesmo valor. Precedido por uma #.<br>
+        Class: Para agrupar elementos dentro de alguma característica (atributo "classe") específica. Pode aparecer
+        várias vezes. Se aplica em HTML inserindo o atributo class em alguma tag, e definindo, em CSS, qual será a
+        classe, podendo receber qualquer nome. Em CSS, é precedido pelo . (ponto final). <br>
+        Hierarquia de especificidade (do menos específico mara o mais específico) e respectivos valores para cálculo de
+        especificidade:
+    <ol>
+        <li>Elemento (a tag) = 1</li>
+        <li>Classe (.class), pseudo-classe e atributo = 10</li>
+        <li>Identificador (#id) = 100</li>
+        <li>Estilo inline, ou seja, o que foi descrito em HTML = 1000</li>
+    </ol><br>
+    Em caso de empate, a últia regra definida será assumida.<br>
+    Para que o navegador NÃO considere alguma especificidade, se utiliza !important depois da definição do
+    id/tag/class/enfim, ainda dentro do {}.
+    </p>
+
+    <h3>Seletor de atributos</h3>
+
+    <p>Como diz o nome, busca os elementos que possuem um determinado atributo. Por exemplo, reune tosos os elementos
+        que possuam o atributo title: a[title] {, e configura como quiser.</p>
+
+    <h3>Comentários indetectáveis ao código</h3>
+
+    <p>Permite colocar comentários no código sem que eles sejam interpretados! São colocados dentro de um bloco /*
+        qualquer texto escrito aqui será ignorado em CSS */</p>
+
+    <h3>Pseudoclasses</h3>
+    <p>Define um estado específico a um elemento (ex: um link que já foi clicado, que era azul e fica roxinho>. Se
+        escreve: seletor (qualquer um):pseudoclasse{. Exemplos para links:
+        <li>Link não visitado: a:link{}</li>
+        <li>Link visitado: a:visited{}</li>
+        <li>Mouse sobre o link: a:hover{}</li>
+        <li>Link selecionado: a:active</li> <br>
+        Exemplo:<br>
+    <ul>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes">Pseudoclasse Mozilla developer</a>
+        </li>
+        <li><a href="https://www.w3schools.com/css/css_pseudo_classes.asp">Pseudoclasse W3Schools</a></li>
+    </ul>
+
+    Exemplos para elementos de formulários:<br>
+
+    <li>Elemento em foco: input:focus</li>
+    <li>Elemento selecionado: input:checked</li>
+    <li>Quando o elemento é obrigatóri: input:required </li>
+    </p>
+
+    <h3>Pseudoelementos</h3>
+    <p>Altera partes de elementos. Exemplos:
+    <ul>
+        <li>Primeira letra: ::first-letter{} -> font-size, color, background-color,etc...</li>
+        <li>Primeira linha do texto: :first-line{}</li>
+        <li>Marcador de lista: ul::marker -> exemplo: color </li>
+        <li>Seleção do usuário: ::selection{}</li>
+    </ul>
+    </p>
+
+    <h3>Box Model</h3>
+
+    <img src="./boxmodel1.png"></img>
+    <br>
+
+    <ul>
+        <li>Padding: sempre transparente. è o espaçam,ento interno entre o texto e a borda da caixa onde ele se
+            encontra.</li>
+        <li>Borda (border): define o tamanho da caixa. Possui as propriedades tamanho (em px), estilo e cor.</li>
+        <li>Margem (margin): espaçamento externo, sempre transparente. Define a distância entre a borda de duas caixas.
+        </li>
+        <br>
+    </ul>
+
+    <p>Tipos de elementos da caixa:
+    <ul>
+        <li>De bloco: respeita as propriedades de altura e largura. ocupa todo o espaço da horizontal, e aí então a
+            caixa gera uma nova linha.
+            Elementos de bloco: div, h1 até h6, blockquote, ul, ol, p, form, header, table, etc. </li>
+        <li>De linha: tem tamanho definido pelo conteúdo, ou seja, não respeita a propriedade de altura e largura. Não
+            pode conter elementos de bloco.
+            Margem e espaçamento interno não possuem o mesmo efeito (comportamentos diferentes na horizontal e
+            vertical). Exemplos: a, br, img, object, q, script, span, input, button, label, select, textarea etc.
+        </li>
+    </ul>
+    </p>
+
+    <p>Medidas em css
+    <ul>
+        <li>Absolutas</li>
+        <li>Relativas</li>
+    </ul>
+    </p><br>
+
+    <div id="box" class="caixa">
+        O texto nesta box apresenta diferentes tamanhos porque o número de em´s deste trecho<div class="caixinha">se
+            multiplica de acordo com os em´s escolhidos para esre trecho.</div>
+    </div>
+
+    <h3>Bordas</h3>
+
+    <ul>
+        <li>Estilo -> propriedade definida por border-style:;valores: dotted, dashed, solid, double, groove, ridge,
+            inset, outset, none.<br>
+            Largura da borda definida por border-width: </li>
+        <li>Tamanho</li>
+        <li>Cor ->border-color, background-color. Podem ser definidos em RGB, HSL e HEX. É possível definir a opacidade
+            com a propriedade opacity, que vari variar entre 0 e 1, sendo 0 totalmente transparente e 1 totalmente
+            opaco. </li>
+        <li>Para definir as mesmas propriedades para todas as bordas, usa-se: border: estilo tamanho cor</li>
+    </ul>
+
+    <h3>Imagem de fundo</h3>
+
+    <p>Para definir uma imagem como fundo, se usa a propriedade background-image: url("pasta/arquivo.jpg").
+        Por padrão a imagem se repete da horizontal para a vertical.<br>
+        Se escreve background-repeat: o valor. Os valores são:
+    <ul>
+        <li>repeat: repet e mtodas as direções</li>
+        <li>repeat-x: repete horizontalmente</li>
+        <li>repeat-y: repete verticalmente</li>
+        <li>no-repeat: não repete</li>
+    </ul>
+    Nos casos onde o fundo não se repete, é possível configurar o <b>posicionamento</b> da imagem única com o
+    backgound-position: valor de A e valor de B.
+    Estes valores podem ser:
+    <ul>
+        <li>A B</li>
+        <li>x% y%</li>
+        <li>xpos ypos</li>
+        <li>inherit</li>
+        <li>contain: para deixar uma imagem inteira, que se adapte de acordo com o tamanho da tela</li>
+    </ul>
+    </p>
+
+    <h3>Media queries</h3>
+
+    <p>Declarações, em CSS, configurado por @. Deixa a apresentação do conteúdo adaptado a diferentes dispositivos, sem
+        precisando mudar o conteúdo.<br>
+        Principais declarações:</p>
+    <ul>
+        <li>Charset: especifica a condição dos caracteres utilizada no CSS. Deve ser escrito no início do arquivo.
+            Sintaxe: @charset "charset". Principais charsets: utf-8 e iso8859-15.</li>
+        <li>Import: para importar regras de outros arquivos CSS. Deve ser declarados depois do charset. Sintaxe:
+            @import: url("outro-arquivo.css")</li>
+        <li>Media queries: para restringir o escopo das folhas de estilo. </li>
+        <p>Exemplo de inclusão de media querie via HTML: (abre tag) link rel="stylesheet" media="(max-width"800px)"
+            href="teste.css"(fecha tag). <br>
+            ou <br>
+            (abre tag) style <br>
+            @media (max-width:800px){ <br>
+            aqui vai a referência ao arquivo css<br>
+            }<br>
+            (fecha a tag)
+        </p>
+        A informação aqui é: a partir de 800 px de largur da tela, utilize a folha de estilo Css do arquivo teste.css.
+        </p>
+    </ul>
+
+    <h3>Display</h3>
+    <p>Define o comportamento com que os elementos HTML serão apresentados.
+        Distingue elementos de linha dos de bloco e modifica comportamentos padrão dos elementos.</p>
+    <br>
+    Tipos de display:
+    <ul>
+        <li>Nenum: p {display: none;} o elemento existe mas não é exibido na interface. </li>
+        <li>Em linha: p {display: inline;} para elemento inline. Não aceita mudar tamanho da fonte.</li>
+        <li>Em bloco: p {display: block;}</li>
+        <li>Em bloco/linha: p {display:inline-block;} funciona como elemento de linha mas permite que aplique
+            características de um elemento de bloco em algum trecho da linha. Permite aplicar um bloco dentro da linha.
+            Aceita mudar o tamanho
+            da fonte para o que estiver dentro do bloco. </li>
+        </p>
+
+        <h3>Posicionamento</h3>
+
+        <p>Top, right, left e bottom.
+
+        </p>
+        <ul>
+            <li>Estático: padrão. Ignora top right left e bottom. Utilizado também para desfazer um posicionamento para
+                algum
+                elemento do HTML que tenha sido definido por outra regra. p {position: static;}</li>
+            <li>Relativo: posicionado em relaçã oà sua posição normal Não ignora top right left e bottom.
+                Espaços deixados pelo posicionamento não serão preenchidos. Exemplo: p {position: relative}; </li>
+            <li>Fixo: fixado na tela. Sempre ocupa o mesmo espaço, independente do conteúdo. Precisa definir pelo menos
+                uma propriedade top right left e bottom.
+                Não deixa espaços. Exemplo: p {position: fixed, right 0; bottom 0;}.
+            </li>
+            <li>Absoluto: È absoluto a partir de um elemento relativo. Se posiciona a partir de seu ancestral. Precisa
+                definir pelo menos uma propriedade top right left e bottom.
+                Nã odeixa espaços, pode sobrescrever elementos. Exemplo: p {position: absolute; right 0; bottom 0;}
+            </li>
+            <li>Sticky: Elemento é posicionado de acordo com a rolagem da tela. Funciona como um elemento relativo e
+                fixo de acordo com a barra de rolagem.
+                Não deixa espaços, pode sobrescrever elementos, preicsa de pelo menos um top right left e bottom.
+                Exemplo: p {position: sticky; top: 0;}. </li>
+        </ul>
+
+        <h3>Tamanhos de caixa</h3>
+
+        <p>Se define o tamanho de uma caixa pela soma de width/height+padding+border (para altura/largura
+            respectivamente.)
+            Box-sizing: corrige essa aferição.</p>
+
+        <ul>
+            <li>Content-box: comportamento padrão</li>
+            <li>border-box: inclui o espaçamento interno e a borda como parte do tamanho</li>
+        </ul>
+        <p>Exemplo: * {box-sizing: border-box;}</p>
+
+        <h3>Float e Clear</h3>
+
+        <p>Propriedade que define como um elemento vai flutuar. Serve para posicionar um elemento ou formatar um
+            conteúdo.
+            As opções são <b>none, left e right.</b> Para candelar o efeit odo float, se usa a propriedade clear, que
+            por sua vez, aceita os valores none (nada acontece),
+            left (cancela elemento que flutua a esquerda), right (à direita), e both (cancela os efeitos de um elemento
+            float). </p>
+        <p>Exemplo na FolkDex - Comadre Florzinha.</p>
+
+        <h3>Flexbox</h3>
+
+        <p>Uma linah que pode se estender em várias linhas; o mesmo para coluna.</p>
+        <h4>Flex Container</h4>
+        <p>Flex box layout module. Alternativa pra criação de layouts, sem float e posicionamentos.
+            Para criar um container, se usa a propriedade display. Exemplo: .container {display: flex}. Têm 3
+            propriedades:
+        </p>
+        <ul>
+            <li>Direção: propriedade flex-direction. Seus valores podem ser column, column-reverse, row e row-reverse.
+                Exemplo: .container {display: flex; flex-direction: column}</li>
+            <li>Quebra: propriedade flex-wrapdefine como os elementos "quebram" de linha/coluna. Os valores possíveis
+                são wrap, wrap-reverse e nowrap. Exemplo: .container {display:flex; flex-wrap: wrap}</li>
+            <li>Nowrap: não permite a quebra, diminuindo o tamanho dos intens. </li>
+            <li>Alinhamento: propriedade justify-content. Define como os elementos serão alinhados horizontalmente.
+                Propriedades: center, flex-start, flex-end, space-around e space-between. Exemplo: .container {display:
+                flex; justify-content: center} </li>
+            <li></li>
+        </ul>
+        <p>Exemplo:</p>
+
+        <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+        </div>
+
+        <h3>Grid</h3>
+
+        <p>Permite a definiçao das linhas e colunas. Pode ser:</p>
+        <ul>
+            <li>Grid container: .container {display:grid;}. Definir o tamanho da grid: grid-template-columns para 4
+                colunas: 80px 200px auto 40px (para cada coluna com um tamanho especificado. "auto" para todas do mesmo
+                tamanho, e ocuparão todo o espaço)
+                O mesmo para linhas, grid-template-rows: 60% auto auto.</li><br>
+            Definir elementos alinhados na horizontal: propriedade justify-content. Exemplo: .container: {diplay:grid;
+            justify-content: center;}. Valores:
+            <ul>
+                <li>Space-evenly</li>
+                <li>Space-around</li>
+                <li>Space-between</li>
+                <li>Center</li>
+                <li>Start</li>
+                <li>End</li>
+            </ul>
+            Definir elementos alinhados na vertical: propriedade algn-items. Exemplo: .container {display:
+            grid,align-items: center}. Valores:
+            <ul>
+                <li>center</li>
+                <li>space-evenly</li>
+                <li>space-around</li>
+                <li>space-between</li>
+                <li>start</li>
+                <li>end</li>
+            </ul>
+        </ul>
+
+        <h4>Grid-column e Grid-row.</h4>
+        <p>Para expandir colunas e linhas (mescla). Uma célula pode ocupar o espaço de outra em diferentes
+            colunas/linhas. A propriedade grid-column/row define onde a mescla começa e termina.
+            Essa propriedade é feita no item da coluna/linha, e não na coluna/linha. Exemplo: .item {grid-column: 1/3}
+            ->ocupar duas colunas,começando no elemento 1 e terminando no 3. </p>
+
+        <h3>Pilhas de elementos z-index</h3>
+
+        <p>Elementos CSS podem ocupar um mesmo espaço (eixo x,y) e são empilhados no eixo z (tridimensional). O último
+            elemento 'empilhado' é o que fica visível.<br>
+            Propriedade z-index: define a ordem de visualização dos elementos. Funciona só para elementos absoluto,
+            relativo, fixo e sitcky. Quanto maior seu valor, mais a frente ele estará.
+            Exemplo: p {z-index: -1}
+        </p>
+
+        <h3>Overflow</h3>
+        <p>Propriedade que controla o comportamento dos elementos de blocos quando o conteúdo é maior que o limite do
+            elemento.
+            <br>
+        <ul>
+            <li>visible: fica visível e ultrapassa os limites do elemento</li>
+            <li>hidden: oculta o elemento</li>
+            <li>scroll: cria, necessariamente, uma barra de rolagem </li>
+            <li>auto: cria a barra de rolagemsó se for necessário, de acordo com o tamanho do conetúdo</li>
+        </ul>
+        </p>
+
+        <h3>Fontes</h3>
+
+        <h4>Font-style</h4>
+        <p>Propriedade que define estilo (normal, italic, oblique). Exemplo: p {font-style: italic;}</p>
+        <h4>Font-weight</h4>
+        <p>Propriedade que define o estilo negrito. Valores permitidos: normal, bold, bolder, lighter, numerais entre
+            100 e 900. Exemplo? p {font-weight: bold}</p>
+        <h4>Font-variation</h4>
+        <p>Propriedade que define o estilo de caixa alta. Valores: normal, small-caps. Exemplo? p {font-variation:
+            small-caps;}</p>
+        <h4>Font-stretch</h4>
+        <p>Propriedade que define o texto condensado ou expandido. Valores: ultra/extra condensed e condensed, normal,
+            semi/extra/ultra expander e expanded. Exemplo: p {font-stretch: expanded;}</p>
+        <h4>Font-size</h4>
+        <p>Define o tamanho da fonte. Os valores serão numéricos. Exemplo: p {font-size: 1.5em;}</p>
+        <h4>Importando uma fonte do Google fonts:</h4>
+        <p>@import url(inserir a url......?famili=<bold>nomedafonte</bold> )</p>
+
+        <h3>Textos</h3>
+
+        <h4>Text-align</h4>
+        <p>Propriedade de Alinhamento horizontal . Valores: center, left, right, justify e last. A text-align-last é
+            apliada para a última linhda de um bloco de texto.</p>
+        <h4>AVestical-alignl</h4>
+        <p>Propriedade Alinhamento vertical (alinhamento entre dois elementos de linha diferentes). Valores: baseline,
+            text-top, text-bottom, sub (subscrito)e super (sobrescrito).</p>
+        <h4>Text-decoration</h4>
+        <p>Propriedade de decoração, que é um traço que acompanha o texto. Valores do text-decoration:</p>
+        <li>-line: onde a linha irá aparecer</li>
+        <ul>
+            <li>overline (sobre o texto)</li>
+            <li>underline</li>
+            <li>linetrough (tachado)</li>
+            <li>none (remove o underline de um link)</li>
+        </ul>
+        <li>-color: cor da linha</li>
+        <li>-style: estil oda linha</li>
+        <ul>
+            <li>solid</li>
+            <li>double</li>
+            <li>dotted</li>
+            <li>dashed</li>
+            <li>wavy</li>
+        </ul>
+        <li>-thicknes:espessura</li>
+        <li>text-decoraion - :todas as propriedades em uma única declaração</li>
+        <h4>Text-transform</h4>
+        <p>Propriedade de transformação, define como o texto é apresentado. Valores: none (não altera), lowercase (texto
+            minúsculo), uppercase (texto maiúsculo), capitalize (primeira letra em maiúsculo).</p>
+        <h4>Text-indent</h4>
+        <p>Propriedade que define o espaçamento entre parágrafos. Valores serão numerais, positivos ou negativos.
+            Exemplo: p {text-indent: 3em}. Valores:</p>
+        <li>Line-height: altura da linha. Ex: p{ line-height: 2em}</li>
+        <li>Word-spacing: espaçamento entre palavras & Letter-spacing: espaçamento entre letras. Ex: p{ letter-spacing:
+            1px; word-spacing: 1em)</li>
+        <h4>White-space</h4>
+        <p>Usado para modificar o comportamento de espaços em branco, que são ignorados pelo HTML. Valores: nowrap, pre,
+            pre-line, normal.</p>
+        <h4>Text-overflow</h4>
+        <p>Define como o texto que ultrapassa o limite de tamanho dentro de uma sessão deve ser tratado. Valores: clip
+            ("corta" o restante do texto), ellipsis ("..."), texto (insere um texto como "continua").
+            Para essa propriedade funcionar, deve-se definir outras duas propriedades:<br>
+            white-space: nowrap e overflow: hidden.</p>
+
+
+        <h3>Listas</h3>
+
+        <p>Listas ordenadas (ol) e não ordenadas (ul)</p>
+        <h4>List-style-type</h4>
+        <p>Propriedade que permite customização das listas.<br>
+            Para não-ordenadas:</p>
+        <ul>
+            <li>disc</li>
+            <li>circle</li>
+            <li>none</li>
+            <li>square</li>
+        </ul>
+        <p>Para ordenadas:</p>
+        <ul>
+            <li>decimal-leading-zero (01, 02, 03...)</li>
+            <li>lower/upper-alpha e lower/upper-latin (a, b, c.. A, B, C...)</li>
+            <li>lower/upper-roman (i, ii, iii, iv... I, II, III, IV...)</li>
+        </ul>
+        <h4>Imagens como marcadores</h4>
+        <p>Propriedade que define imagens como marcadores. Exemplo: ul {list-style-image: url('imagem.gif);} </p>
+        <h4>List-style-position</h4>
+        <p>Permite definis onde o marcador da lista aparecerá em relação a ela:</p>
+        <li>Dentro: ul {list-style-position: outside;}</li>
+        <li>Fora: ul {list-style-position: inside;}</li>
+
+        <h3>Tabelas</h3>
+
+        <p>Elementos de tabela: table (a própria tabela), tr (linha da tabela), td (coluna da tabela) e th (linha de
+            cabeçalho da tabela, table header).
+            Principais propriedades: border, background-color, tamanho, alinhamento e espaçamento.</p>
+        <h4>Border-collapse</h4>
+        <p>Propriedade que une bordas. Valor: collapse.</p>
+        <h4>Linhas alternadas</h4>
+        <p>Define cores diferentes e alternadas anas linhas. Sintaxe: <br>
+            tr: nth-child(even){background-color: cor1;} seguida de tr: nth-child(even){background-color: cor2;} </p>
+        <h4>Border-radius</h4>
+        <p>Propriedade que define bordas arredondadas. Recebe valores numpericos. Exemplo:
+            border-top/bottom-right/left-radius.<br>
+            Borda elíptica: border-radius: 15px/50px.<br></p>
+
+        <h3>Gradientes e Sombras</h3>
+
+        <h4>Gradientes</h4>
+        <p>Transições entre 2 ou mais cores. Podem ser lineares, radiais ou cônicos.</p>
+        <ul>
+            <li>Gradiente linear: background-image: linear-gradient(direção (que pode ser to left/right, to top/bottom,
+                to bottom right/left), cor1, cor2...corN)</li>
+            <li>Gradiente radial: backgroun-image: radial-gradient(shape (que pode ser circle/elipse), size (que pode
+                ser closest-insite/corner, farthest inside/corner), cor1, cor2...corN)</li>
+            <li>Gradiente cônico: background-image: conic-gradient(cor1, cor2...corN) </li>
+        </ul>
+
+        <h4>Sombras</h4>
+        <ul>
+            <li>Aplicada em texto: text-shadow. Valores: horizontal, vetical, blur, cor. Exemplo:<br>
+                text-shadow:2px 2px 5px red</li>
+            <li>Aplicada em caixa: box-shadow. Valores: horizontal, vetical, blur, tamanho, cor. Exemplo:<br>
+                box-shadow: 10px 10px 5px lightblue</li>
+        </ul>
+
+        <h3>Formulários</h3>
+
+        <p>Utilizados para receber dados dos usuários. Tag: form. Atributor: action (=url), method (=get ou post),
+            autocomplete (=on e off). Exemplo: em html-> (abre a tag) form action=("insere url") method="post" (fecha
+            tag)</p>
+
+        <h4>Input</h4>
+
+        <p>Entrada de texto. Principais atributos: disable (campo desabilitado) maxlenght (tamanho máximo de caracteres
+            no campo) readonly (somente leitura) required (define campo obrigatório) size (tamanho do campo) value
+            (entrada já pré determinada no campo).
+            Sintaxe: (só abre tag)input type="text" name="nome" id="nome" placeholder="Nome".
+            Cada elemento de formulário precisa ter u nome único.</p>
+        <p>Exemplo:</p>
+
+        /* aula 17 08:50 */
+        <p>Em <bold>HTML</bold>:</p>
+        <form>
+            <p>Nome: <input type="text" name="nome" placeholder="Ex: Fulano" id="nome" name="nome"></p>
+            </p>
+            <p>Sobrenome: <input type="text" name="sobrenome" placeholder="Ex: de Tal" id="sobrenome" name="sobrenome">
+            </p>
+            <p>Exemplo de campo disable: <input type="text" name="nome" placeholder="Ex: Fulano" id="nome" name="nome"
+                    disabled></p>
+
+        </form>
+
+
+
+        
+
+        <h1>Git</h1>
+
+        <img src="./flork2.jpg" width="200" />
+
+
+        <h3>Ciclo de vida dos arquivos. </h3>
+
+        <h4>Git</h4>
+
+        <p>É um sistema de controle de versão de arquivos. Permite que várias pessoas possam contribuir e modificar
+            simultaneamente num
+            mesmo projeto/arquivo, editando e criando novos arquivos e permitindo que esses novos arquivos modificados
+            possam existir sem
+            o risco de suas alterações serem sobrescritas.</p>
+        <p>
+            <bold>untracked -> unmodified -> modified -> staged</bold>
+        </p>
+        <h4>Novo diretório</h4>
+            <p>Git init. A execução desse comando cria um novo subdiretório .git no diretório de 
+                trabalho atual. Essa ação também vai criar uma ramificação principal.</p>
+        <p>
+            <bold>Commit:</bold> utilizado para informar ao git que queremos gerar um novo estado com os arquivos em
+            staged.
+        </p>
+        <p>
+            <bold>Branch:</bold> Cria uma linha alternativa no tempo pra trabalhar em paralelo à branch principal.
+        </p>
+        <ul>
+            <li>Untracked: o git ainda não conhece a existência do arquivo em nenhuma versão</li>
+            <li>Unmodified: o arquivo tem um estado anterior registrado no git. São os arquivos que não sofreram nenhuma
+                alteraçao em relação à última versão. </li>
+            <li>Modified: arquivos que sofreram alteração em relação à sua última versão.</li>
+            <li>Staged: arquivos que estão prontos para serem inseridos na nova versão (esse novo arquivo se chama
+                snapshot)</li>
+        </ul>
+        <ul>
+            <li>Git status: consultar o status dos arquivos</li>
+            <li>Git log: alterar ou consultar commits<br>
+                Git log --graph: consultar commits visualizando as ramificações</li>
+            <li>Git commit -m: comenta a alteração</li>
+            <li>Git branch nome_branch: criar uma nova branch</li>
+            <li>Git checkout nome_branch: mudar de branch</li>
+            <li>Git merge nome_branch: unir/mergear duas branches</li>
+        </ul>
+
+        <h4>Git reset:</h4>
+        <ul>
+            <li>Git checkout nome_arquivo: voltar o arquivo para antes da edição</li>
+            <li>Git diff nome_arquivo: ver modificaçõe em um arquivo</li>
+            <li>Git reset HEAD nome_arquivo: voltar o arquivo para o staged (como era antes de qualquer modificação)
+            </li>
+            <li>Git reset:
+                <ol>
+                    <li>--soft id_commit_anterior</li>
+                    <li>--mixed id_commit_anterior</li>
+                    <li>--hard id_commit_anterior</li>
+                </ol>
+            </li>
+        </ul>
+
+        <h4>Git remote:</h4>
+        <ul>
+            <li>Git remote add origin url_repo: adicionar um repositório remoto</li>
+            <li>Git clone url_repo: cria uma cópia ou clone de repositórios remotos.</li>
+        </ul>
+
+        <h4>Push e Pull</h4>
+        <ul>
+            <li>Git push origin main: enviar o código para o repositório remoto</li>
+            <li>Git pull origin main: obter as modificações de um repositório remoto</li>
+        </ul>
+
+        <h4>Merge e Rebase</h4>
+        <p>Utilizados para unir branches. </p>
+        <ul>
+            <li>Git merge branch_name: mescla branches com a main criando um novo commit, sem mudar sua estrutura
+                cronológica.</li>
+            <li>Git rebase branch_name: mescla branches com a main colocando todos os commits em ordem cronológica,
+                acarretando numa mudança de estrutura da main. </li>
+        </ul>
+
+        <h4>Repositórios</h4>
+        <p>Uma forma de armazenamento de objetos digitais que tem a capacidade de manter e gerenciar material por longos
+            períodos
+            de tempo e prover o acesso apropriado.</p>
+        <ul>
+            <li>Git remote add origin url_repo: adicionar um repositório remoto</li>
+            <li>Git clone url_repo: clonar um repositório remoto</li>
+            <li></li>
+        </ul>
+
+        <h4>Stash</h4>
+        <p>Arquiva alterações não commitadas do seu local de trabalho, ou seja, ele volta para o estado do seu último
+            commit
+            guardando as alterações adicionais que você tinha feito. É como se fizesse um backup das modificações dos
+            arquivos</p>
+        <ul>
+            <li>Git stash: armazena uma alteração temporária. Arquiva (ou faz o stash) de alterações que você fez
+                na cópia de trabalho (alterações que foram adicionadas ao seu índice, alterações feitas a arquivos que
+                estão no momento rastreados pelo Git)
+                durante um determinado período, para que você possa trabalhar em outra coisa, depois
+                voltar e fazer a reaplicação mais tarde. O stashing é útil quando você precisa alternar com rapidez o
+                contexto e trabalhar em outra coisa, mas está no meio da alteração de código e não está pronto para
+                fazer commit.</li>
+            <li>Git stash --include-untracked: adicionar a opção -u (ou --include-untracked) vai dizer ao git stash para
+                também fazer o stashing dos
+                arquivos não rastreados, porque por padrão, o stashing não se realiza em novos arquivos na cópia de
+                trabalho que ainda não foram preparados e em ignorados.</li>
+            <li>Git stash apply: aplica uima alteração temporária. Aplicar mais uma vez as alterações à cópia de
+                trabalho e manter no stash.</li>
+            <li>Git stash list: listar alterações temporárias. Pode executar o git stash mais da vez para criar
+                múltiplos stashes e, então,
+                usar o git stash list para fazer uma visualização. </li>
+            <li>Git stash clear: limpar uma alteração temporária. Exclui stashes.</li>
+        </ul>
+
+        <h4>Ignore</h4>
+        <p>Os arquivos ignorados costumam ser artefatos de desenvolvimento e arquivos gerados por máquina que podem ser
+            derivados da fonte do seu
+            repositório ou que não devem passar por commit. Os arquivos ignorados são rastreados em um arquivo especial chamado .gitignore,
+             que é verificado na origem do seu repositório.</p>
+        <ul>
+            <li>.gitignore: nem todos os arquivos precisam ser enviados para o repositório remoto (como arquivos de sistemas).</li>
+        </ul>
+
+
+
+
+
+
+
+</body>
+
 </html>
